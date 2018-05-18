@@ -1,0 +1,41 @@
+---
+title: GitHub Portfolio Example
+description: A Demo of an Open Source Portfolio Using GitHub Pages
+---
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <title>{{ page.title }}</title>
+    <link href="./css/styles.css" media="all" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    {% include icons.svg %}
+    <header class="header">
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.description }}</h2>
+    </header>
+
+    <ul class="portfolio">
+      {% for repo in site.github.public_repositories limit:28 %}
+        {% if repo.fork != true %}
+          <li class="repo  repo--{{ repo.language | downcase }}">
+            <svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#{{ repo.language | downcase }}"></use>
+            </svg>
+            <h3><a href="{{ repo.homepage }}">{{ repo.name }}</a></h3>
+            <p>{{ repo.description }}</p>
+            <a class="button" href="{{ repo.html_url }}/archive/{{ repo.default_branch }}.zip"><svg class="icon  icon--sub"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#down"></use></svg> Download</a>
+            <a class="button" href="{{ repo.html_url }}"><svg class="icon  icon--sub"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#octocat"></use></svg> Fork it</a>
+            <aside class="details">
+              <span><svg class="icon  icon--sub"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use></svg> {{ repo.stargazers_count }}</span>
+              <span><svg class="icon  icon--sub"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#fork"></use></svg> {{ repo.forks_count }}</span>
+            </aside>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+
+  </body>
+</html>
