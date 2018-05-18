@@ -1,16 +1,14 @@
----
-title: GitHub Portfolio Example
-description: A Demo of an Open Source Portfolio Using GitHub Pages
----
 <!doctype html>
 <html lang="en-GB">
   <head>
     <title>{{ page.title }}</title>
     <link href="./css/styles.css" media="all" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/images/favicon.ico" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+
     {% include icons.svg %}
     <header class="header">
       <h1>{{ page.title }}</h1>
@@ -18,7 +16,7 @@ description: A Demo of an Open Source Portfolio Using GitHub Pages
     </header>
 
     <ul class="portfolio">
-      {% for repo in site.github.public_repositories limit:28 %}
+      {% for repo in site.github.public_repositories limit:11 %}
         {% if repo.fork != true %}
           <li class="repo  repo--{{ repo.language | downcase }}">
             <svg class="icon">
@@ -36,6 +34,8 @@ description: A Demo of an Open Source Portfolio Using GitHub Pages
         {% endif %}
       {% endfor %}
     </ul>
+
+    {%- include footer.html -%}
 
   </body>
 </html>

@@ -1,4 +1,3 @@
-# Ignore repo files
 exclude:
 - README.md
 - LICENSE

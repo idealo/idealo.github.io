@@ -146,6 +146,26 @@ h3 {
             color: #E8C917;
         }
     }
+    &--java {
+        background: fade-out(#E8C917, 0.9);
+        .icon {
+            fill: #E8C917;
+            background: transparent;
+        }
+        a {
+            color: #E8C917;
+        }
+    }
+    &--python {
+        background: fade-out(#DC143C, 0.9);
+        .icon {
+            fill: #DC143C;
+            background: transparent;
+        }
+        a {
+            color: #DC143C;
+        }
+    }
     &--php {
         background: fade-out(#617CBE, 0.9);
         .icon {
