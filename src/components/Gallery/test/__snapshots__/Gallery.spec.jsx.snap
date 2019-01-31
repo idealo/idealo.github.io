@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gallery component should render as expected 1`] = `
+<div
+  className="gallery__container"
+>
+  <ProgressiveImage
+    blurRadius="3"
+    className="gallery__image"
+    keepRatio={true}
+    src="static/jobs_04.png"
+    thumbnail="static/thumbnails/jobs_04.png"
+  />
+  <ProgressiveImage
+    blurRadius="3"
+    className="gallery__image"
+    keepRatio={true}
+    src="static/jobs_08.png"
+    thumbnail="static/thumbnails/jobs_08.png"
+  />
+  <ProgressiveImage
+    blurRadius="3"
+    className="gallery__image"
+    keepRatio={true}
+    src="static/jobs_01.png"
+    thumbnail="static/thumbnails/jobs_01.png"
+  />
+  <ProgressiveImage
+    blurRadius="3"
+    className="gallery__image"
+    keepRatio={true}
+    src="static/jobs_03.png"
+    thumbnail="static/thumbnails/jobs_03.png"
+  />
+  <ProgressiveImage
+    blurRadius="3"
+    className="gallery__image"
+    keepRatio={true}
+    src="static/jobs_02.png"
+    thumbnail="static/thumbnails/jobs_02.png"
+  />
+  <ProgressiveImage
+    blurRadius="3"
+    className="gallery__image"
+    keepRatio={true}
+    src="static/jobs_05.png"
+    thumbnail="static/thumbnails/jobs_05.png"
+  />
+  <ProgressiveImage
+    blurRadius="3"
+    className="gallery__image"
+    keepRatio={true}
+    src="static/jobs_07.png"
+    thumbnail="static/thumbnails/jobs_07.png"
+  />
+  <ProgressiveImage
+    blurRadius="3"
+    className="gallery__image"
+    keepRatio={true}
+    src="static/jobs_06.png"
+    thumbnail="static/thumbnails/jobs_06.png"
+  />
+</div>
+`;
