@@ -14,7 +14,7 @@
         z-index: 0;
         flex: 0;
     }
-    
+
     &__image {
         flex: 1;
     }
@@ -52,7 +52,7 @@
             padding: 0 10px;
             transition: font-size .2s;
             line-height: 1;
-            
+
             &:hover {
                 font-size: 40px;
                 color: #fff;
@@ -62,7 +62,7 @@
         @media screen and (max-width : 500px) {
             display: none;
         }
-    }   
+    }
 
     &__text {
         font-size: 20px;
@@ -85,11 +85,11 @@
     &__scrollDown {
         height: 25px;
         position: absolute;
-        
+
         z-index: 3;
         bottom: 20px;
         left: 50%;
-        transform: translateX(-50%);  
+        transform: translateX(-50%);
 
         animation: jump 4s infinite;
 

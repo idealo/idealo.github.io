@@ -80,7 +80,7 @@ export default class Navigation extends Component {
         </div>
         <ul className={'navigation__list' + (this.state.showMenu ? ' open' : '')} >
           <li onClick={this.goTo.bind(this, '#home')} className={'navigation__item navigation__item--logo'} >
-            <img className='navigation__logo' src='static/as_logo.svg' alt='Axel Springer SE Logo' />
+            <img className='navigation__logo' src='static/idealo_logo.svg' alt='Axel Springer SE Logo' />
           </li>
           <li onClick={this.goTo.bind(this, '#projects')} className={'navigation__item' + (this.state.active == 'projects__container' ? ' navigation__item--active' : '')}>
             Our Projects

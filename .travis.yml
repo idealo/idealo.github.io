@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+- '6'
+
+env:
+  global:
+    secure: FHekx8oss6WwcxwvLaswt7MWEzh9wLSQ/esJ3G9PuwL62V6YLzslVHDzMSVs/nz5ni+PVSTpRyrNAv07/A/RxaRfEm69+rIgeO65Xmh4HGtTkXjo42E1zxJjtqukgWoaVgsd6BUJVbkHqx8b6HyVuKU6Sqvc6JmDQPLZqz7QicoewN5sVAlOIMFQgZOgbTscAGDQPikHm6c3xAAfxe1K43xG2m5Scwr2GajIwgODTR/IFYLwT8vfjXvHAIZFzjxBRvQcclTFrgnuxa8xLnh63l75p1nW3I6tnKVtCs7NIsP04aqaf0VlBUgzxAS2jPF0VFABFicB87YbUN8YNqbAYMl72+bf2QGcXGidvxYPM45yWyIBOnWsWbKTzaAL6uKQtoZ34DOhEN+L9Jitu4DKjBVq5G4sPhqsBra2Qx9JrZbyZAKvJqYF0kSldshHPZ/CLlhbvItc0KbyDWrhv0B91Fu0UikyoSU2LpVlL5cqGhVHp+fi96r5wvJHZOkCj0nxnQQ58bNHqtDhEDN3wIR6ADBUTbWe7/29BA7kQNpfts9320G7V9kOrKZzvSN0/G9jNwa/ZTMcWyWib8vF5dNNKeI0QDq4cpqitiKnt6qvq1zH/vAltw5MM3I+/vpw1TkPTmvVMNvPVerNcFOcg06Dep+GyCTkuSVI6p/1LmxTqgc=
+
+branches:
+  only:
+  - develop
+  except:
+  - master
+
+script:
+- npm install
+- npm run build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  local_dir: dist
+  on:
+    branch: develop
+  target_branch: master

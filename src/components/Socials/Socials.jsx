@@ -6,10 +6,10 @@ var FontAwesome = require('react-fontawesome');
 export default (props) => {
     return (
         <p className={'socials__container ' + props.className}>
-            <a href='https://www.xing.com/companies/axelspringerse' className='socials__item'><FontAwesome name='xing' /></a>
-            <a href='https://de.linkedin.com/company/axel-springer-se' className='socials__item'><FontAwesome name='linkedin' /></a>
-            <a href='https://www.instagram.com/axel_springer_karriere/' className='socials__item'><FontAwesome name='instagram' /></a>
-            <a href='https://www.facebook.com/AxelSpringerKarriere/' className='socials__item'><FontAwesome name='facebook' /></a>
+            <a href='https://www.xing.com/companies/idealointernetgmbh' className='socials__item'><FontAwesome name='xing' /></a>
+            <a href='https://www.linkedin.com/company/idealo-internet-gmbh/' className='socials__item'><FontAwesome name='linkedin' /></a>
+            <a href='https://www.instagram.com/idealo/' className='socials__item'><FontAwesome name='instagram' /></a>
+            <a href='https://www.facebook.com/idealoDE/' className='socials__item'><FontAwesome name='facebook' /></a>
         </p>
     );
 }

@@ -14,17 +14,17 @@ export default (props) => {
 
   return (
     <header className='hero__container' id='home'>
-      <ProgressiveImage className='hero__image' src='static/work.jpg' thumbnail='static/thumbnails/work.jpg' />
+      <ProgressiveImage className='hero__image' src='static/header.jpg' thumbnail='static/thumbnails/header.jpg' />
 
       <div className='hero__imageContainer'>
         <div className='hero__bottomContainer'>
-          <p className='hero__bottomText'>There‘s more to it.</p>
+          <p className='hero__bottomText'>#idealoTech</p>
           <Socials className='hero__socials' />
         </div>
         {/*<img className='hero__scrollDown' src='static/arrow.png' onClick={scrollDown} />*/}
       </div>
       <p className='hero__text'>
-        Nowadays the largest source of revenue at <strong>Axel Springer</strong> and it’s companies is the digital business. Hence, sharing of best practices and practical solutions plays a huge role in our everyday work. That’s why we’re going public with some of our projects here. <strong>We love the idea of cooperating inhouse and with everyone outside who can benefit from the things we’ve built.</strong> Even better if you join us in discussion and development!
+        <strong>idealo</strong> is a Berlin-based, start-up, success story. Seventeen years ago, idealo started with the mission of helping our users to make the best purchasing decisions. Today, we are the leading price comparison website in Europe and one of the largest portals in the German e-commerce market. We achieved this by obtaining more than 1.3 million page impressions per day, 50.000 Online-Shops, around 3300 million product offers and more than 4 million app downloads.
       </p >
     </header >
   );
