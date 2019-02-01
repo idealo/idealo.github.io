@@ -6,12 +6,14 @@ $lightestgray: #f7f7f7;
 
 $black: #000;
 $white: #fff;
+$idealo_blue: #0A3761;
+$idealo_orange: #FF6600;
 
 $font-color-primary: $black;
 $font-color-secondary: $white;
 
-$background-color-primary: $white;
-$background-color-secondary: $black;
+$background-color-primary: $idealo_blue;
+$background-color-secondary: $idealo_blue;
 
 .centeredContainer {
     margin: 0 auto;

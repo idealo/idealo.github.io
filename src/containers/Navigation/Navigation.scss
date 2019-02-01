@@ -10,11 +10,12 @@
         z-index: 10;
 
         background: $background-color-primary;
-        border-bottom: 1px solid $gray;
+        border-bottom: 1px solid $idealo_blue;
         box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
 
         box-sizing: border-box;
         padding: 10px 40px;
+        color: white;
 
         &--dark {
             background: $background-color-secondary;
@@ -26,7 +27,7 @@
                         color: $font-color-secondary;
                     }
 
-                    border-color: $font-color-secondary;                     
+                    border-color: $font-color-secondary;
                  }
             }
         }
@@ -34,14 +35,14 @@
         &--light {
             background: $background-color-primary;
             border-color: $gray;
-            
+
             .navigation {
                  &__item {
                     > a{
                         color: $font-color-primary;
                     }
 
-                    border-color: $font-color-primary;                     
+                    border-color: $font-color-primary;
                  }
             }
         }
@@ -50,14 +51,14 @@
             background: linear-gradient(#000, transparent); ;
             border: 0;
             box-shadow: none;
-            
+
             .navigation {
                  &__item {
                     > a{
                         color: $font-color-secondary;
                     }
 
-                    border-color: $font-color-secondary;                     
+                    border-color: $font-color-secondary;
                  }
             }
         }
@@ -80,13 +81,13 @@
         padding: 0 5px;
         margin-right: 35px;
 
-        font-size: 16px;
+        font-size: 14px;
         white-space: nowrap;
         text-transform: uppercase;
 
         &:before {
             content: '';
-            background-color: #777;
+            background-color: $white;
             position: absolute;
             height: 100%;
             top: 0;
@@ -96,7 +97,7 @@
 
         &:after {
             content: '';
-            background-color: #ddd;
+            background-color: $white;
             position: absolute;
             bottom: 0px;
             width: 100%;
@@ -138,7 +139,7 @@
 
         &:hover {
             text-decoration: underline;
-            
+
             &:after {
                 //height: 40%;
             }
@@ -153,7 +154,7 @@
         display: none;
     }
 
-    @media screen and (max-width : 500px) {
+    @media screen and (max-width : 300px) {
         &__container {
             padding: 0px;
         }
@@ -276,7 +277,7 @@
 
                     &:after {
                         bottom: 0;
-                        transform: rotate(-45deg);                        
+                        transform: rotate(-45deg);
                     }
                 }
             }
