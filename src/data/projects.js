@@ -4,8 +4,8 @@ export default [
         "description": "Convolutional Neural Networks to predict the aesthetic and technical quality of images.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
-        "ownerLogo": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "tensorflow",
         "projectId": "image-quality-assessment",
         "language": "python"
     },
@@ -14,8 +14,8 @@ export default [
         "description": "Keras implementation of the Residual Dense Network for super scaling images.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
-        "ownerLogo": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "tensorflow",
         "projectId": "image-super-resolution",
         "language": "python"
     },
@@ -24,8 +24,8 @@ export default [
         "description": "Workflow that shows how to train neural networks on EC2 instances with GPU support and compares training times to CPUs.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
-        "ownerLogo": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "python",
         "projectId": "nvidia-docker-keras",
         "language": "python"
     },
@@ -34,7 +34,7 @@ export default [
         "description": "This java web application collects slow operations from a mongoDB system in order to visualize and analyze them.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
+        "ownerUrl": "",
         "ownerLogo": "idealo",
         "projectId": "mongodb-slow-operations-profiler",
         "language": "java"
@@ -44,8 +44,8 @@ export default [
         "description": "Quickstart PySpark with Anaconda on AWS/EMR using Terraform.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
-        "ownerLogo": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "terraform",
         "projectId": "terraform-emr-pyspark",
         "language": "hcl"
     },
@@ -54,8 +54,8 @@ export default [
         "description": "Simple Machine Learning Web API Example with Falcon.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
-        "ownerLogo": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "python",
         "projectId": "falcon-prediction-app",
         "language": "python"
     },
@@ -64,7 +64,7 @@ export default [
         "description": "Logback Redis Appender with Pipeline-Support for maximum throughput.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
+        "ownerUrl": "",
         "ownerLogo": "idealo",
         "projectId": "logback-redis",
         "language": "java"
@@ -74,8 +74,8 @@ export default [
         "description": "idealo Direktkauf PHP SDK.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
-        "ownerLogo": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "php",
         "projectId": "idealo-orders-api-php-sdk",
         "language": "php"
     },
@@ -84,7 +84,7 @@ export default [
         "description": "Minimal example to setup a Jenkins-CI pipeline for data science projects on OpenShift in a couple of minutes.",
         "videoUrl": "",
         "ownerId": "idealo",
-        "ownerUrl": "http://idealo.de",
+        "ownerUrl": "",
         "ownerLogo": "idealo",
         "projectId": "jenkins-ci",
         "language": "dockerfile"
