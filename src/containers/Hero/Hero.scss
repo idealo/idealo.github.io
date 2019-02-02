@@ -17,6 +17,7 @@
 
     &__image {
         flex: 1;
+        filter: brightness(80%);
     }
 
     &__bottomContainer {

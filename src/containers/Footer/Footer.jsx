@@ -9,8 +9,8 @@ export default (props) => {
       <div className='footer__content'>
         <Socials />
         <p className='footer__links'>
-          <a href='https://www.idealo.de/preisvergleich/AGB.html'>Impressum</a>
-          <a href='https://www.idealo.de/preisvergleich/Datenschutz.html'>Hinweise zum Datenschutz</a>
+          <a href='https://www.idealo.de/preisvergleich/AGB.html' target="_blank">Impressum</a>
+          <a href='https://www.idealo.de/preisvergleich/Datenschutz.html' target="_blank">Datenschutz</a>
         </p>
       </div>
     </footer>
