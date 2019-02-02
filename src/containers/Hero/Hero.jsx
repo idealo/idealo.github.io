@@ -24,7 +24,7 @@ export default (props) => {
         {/*<img className='hero__scrollDown' src='static/arrow.png' onClick={scrollDown} />*/}
       </div>
       <p className='hero__text'>
-        <strong>idealo</strong> is a Berlin-based, start-up, success story. Seventeen years ago, idealo started with the mission of helping our users to make the best purchasing decisions. Today, we are the leading price comparison website in Europe and one of the largest portals in the German e-commerce market. We achieved this by obtaining more than 1.3 million page impressions per day, 50.000 Online-Shops, around 3300 million product offers and more than 4 million app downloads.
+        We're the Product & Technology department of <strong><a href="https://www.idealo.de/" target="_blank">idealo.de</a></strong>, a Berlin-based, start-up, success story. In 2000 we started out with the mission of helping consumers make the best purchasing decisions. Today, with 1.5 million visits per day, 50,000 shops and more than 330 million product offers, we are one of the most popular German e-commerce websites and one of the leading European shopping and comparison platforms. 
       </p >
     </header >
   );
