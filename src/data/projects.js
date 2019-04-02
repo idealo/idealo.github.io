@@ -30,6 +30,36 @@ export default [
         "language": "python"
     },
     {
+        "title": "imageatm",
+        "description": "Image classification for everyone.",
+        "videoUrl": "",
+        "ownerId": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "tensorflow",
+        "projectId": "imageatm",
+        "language": "python"
+    },
+    {
+        "title": "cnn-exposed",
+        "description": "Interpreting Convolutional Neural Network (CNN) Results.",
+        "videoUrl": "",
+        "ownerId": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "tensorflow",
+        "projectId": "cnn-exposed",
+        "language": "python"
+    },
+    {
+        "title": "flask-openshift-example",
+        "description": "Simple Flask example using Docker to deploy on OpenShift 3.",
+        "videoUrl": "",
+        "ownerId": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "python",
+        "projectId": "flask-openshift-example",
+        "language": "python"
+    },
+    {
         "title": "mongodb-slow-operations-profiler",
         "description": "This java web application collects slow operations from a mongoDB system in order to visualize and analyze them.",
         "videoUrl": "",
