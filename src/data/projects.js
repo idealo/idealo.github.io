@@ -20,16 +20,6 @@ export default [
         "language": "python"
     },
     {
-        "title": "nvidia-docker-keras",
-        "description": "Workflow that shows how to train neural networks on EC2 instances with GPU support and compares training times to CPUs.",
-        "videoUrl": "",
-        "ownerId": "idealo",
-        "ownerUrl": "",
-        "ownerLogo": "python",
-        "projectId": "nvidia-docker-keras",
-        "language": "python"
-    },
-    {
         "title": "imageatm",
         "description": "Image classification for everyone.",
         "videoUrl": "",
@@ -47,6 +37,16 @@ export default [
         "ownerUrl": "",
         "ownerLogo": "tensorflow",
         "projectId": "cnn-exposed",
+        "language": "python"
+    },
+    {
+        "title": "nvidia-docker-keras",
+        "description": "Workflow that shows how to train neural networks on EC2 instances with GPU support and compares training times to CPUs.",
+        "videoUrl": "",
+        "ownerId": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "python",
+        "projectId": "nvidia-docker-keras",
         "language": "python"
     },
     {
