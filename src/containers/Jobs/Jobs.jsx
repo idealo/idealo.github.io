@@ -20,7 +20,7 @@ export default (props) => {
                 <p className='jobs__adHeading'>Want to code with us?</p>
                 <p className='jobs__adSubheading'>We offer many vacancies in IT!</p>
             </div>
-            <a onClick={goToJobs} className='jobs__buttonJobs button' href="https://idealo.jobbase.io/" target="_blank">Find your new job</a>
+            <a onClick={goToJobs} className='jobs__buttonJobs button' href="https://jobs.idealo.com/l/en#section-110677" target="_blank">Find your new job</a>
         </section>
     );
 }
