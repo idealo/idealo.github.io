@@ -118,5 +118,15 @@ export default [
         "ownerLogo": "idealo",
         "projectId": "jenkins-ci",
         "language": "dockerfile"
+    },
+    {
+        "title": "deckard",
+        "description": "Easy-to-use Spring Kafka producers",
+        "videoUrl": "",
+        "ownerId": "idealo",
+        "ownerUrl": "",
+        "ownerLogo": "idealo",
+        "projectId": "deckard",
+        "language": "java"
     }
 ]
