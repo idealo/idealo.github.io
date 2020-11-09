@@ -4,11 +4,13 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = (env) => {
     const plugins = [
-        new CopyWebpackPlugin([
+        new CopyWebpackPlugin({
+        patterns: [
             { from: 'src/static', to: 'static' },
             { from: 'src/styles/preload.css', to: 'preload.css' },
             { from: 'README.md', to: 'README.md' }
-        ])
+        ]
+      })
     ];
 
     if (env && env.prod) {
