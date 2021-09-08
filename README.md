@@ -21,7 +21,7 @@ If you want to present your open source project on the landing page, go to **/sr
 
 ### Testing
 
-There are Snaphot Tests available, run those tests using `npm run tests`.
+There are Snaphot Tests available, run those tests using `npm run test`.
 Please remember to alter these tests if you’ve modified the structure of the page.
 
 ## License
