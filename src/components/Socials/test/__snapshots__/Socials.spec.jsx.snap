@@ -6,16 +6,25 @@ exports[`Socials component should render as expected 1`] = `
 >
   <a
     className="socials__item"
-    href="https://www.xing.com/companies/axelspringerse"
+    href="https://twitter.com/idealoTech"
   >
     <span
       aria-hidden={true}
-      className="fa fa-xing"
+      className="fa fa-twitter"
     />
   </a>
   <a
     className="socials__item"
-    href="https://de.linkedin.com/company/axel-springer-se"
+    href="https://medium.com/idealo-tech-blog"
+  >
+    <span
+      aria-hidden={true}
+      className="fa fa-medium"
+    />
+  </a>
+  <a
+    className="socials__item"
+    href="https://www.linkedin.com/company/idealo-internet-gmbh/"
   >
     <span
       aria-hidden={true}
@@ -24,7 +33,7 @@ exports[`Socials component should render as expected 1`] = `
   </a>
   <a
     className="socials__item"
-    href="https://www.instagram.com/axel_springer_karriere/"
+    href="https://www.instagram.com/idealo/"
   >
     <span
       aria-hidden={true}
@@ -33,7 +42,7 @@ exports[`Socials component should render as expected 1`] = `
   </a>
   <a
     className="socials__item"
-    href="https://www.facebook.com/AxelSpringerKarriere/"
+    href="https://www.facebook.com/idealoDE/"
   >
     <span
       aria-hidden={true}

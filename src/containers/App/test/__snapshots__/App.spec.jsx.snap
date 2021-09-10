@@ -23,9 +23,9 @@ exports[`App component should render as expected 1`] = `
         onClick={[Function]}
       >
         <img
-          alt="Axel Springer SE Logo"
+          alt="idealo.de Logo"
           className="navigation__logo"
-          src="static/as_logo.svg"
+          src="static/idealo_logo.svg"
         />
       </li>
       <li
@@ -48,8 +48,8 @@ exports[`App component should render as expected 1`] = `
   >
     <ProgressiveImage
       className="hero__image"
-      src="static/work.jpg"
-      thumbnail="static/thumbnails/work.jpg"
+      src="static/header.jpg"
+      thumbnail="static/thumbnails/header.jpg"
     />
     <div
       className="hero__imageContainer"
@@ -60,23 +60,32 @@ exports[`App component should render as expected 1`] = `
         <p
           className="hero__bottomText"
         >
-          There‘s more to it.
+          #idealoTech
         </p>
         <p
           className="socials__container hero__socials"
         >
           <a
             className="socials__item"
-            href="https://www.xing.com/companies/axelspringerse"
+            href="https://twitter.com/idealoTech"
           >
             <span
               aria-hidden={true}
-              className="fa fa-xing"
+              className="fa fa-twitter"
             />
           </a>
           <a
             className="socials__item"
-            href="https://de.linkedin.com/company/axel-springer-se"
+            href="https://medium.com/idealo-tech-blog"
+          >
+            <span
+              aria-hidden={true}
+              className="fa fa-medium"
+            />
+          </a>
+          <a
+            className="socials__item"
+            href="https://www.linkedin.com/company/idealo-internet-gmbh/"
           >
             <span
               aria-hidden={true}
@@ -85,7 +94,7 @@ exports[`App component should render as expected 1`] = `
           </a>
           <a
             className="socials__item"
-            href="https://www.instagram.com/axel_springer_karriere/"
+            href="https://www.instagram.com/idealo/"
           >
             <span
               aria-hidden={true}
@@ -94,7 +103,7 @@ exports[`App component should render as expected 1`] = `
           </a>
           <a
             className="socials__item"
-            href="https://www.facebook.com/AxelSpringerKarriere/"
+            href="https://www.facebook.com/idealoDE/"
           >
             <span
               aria-hidden={true}
@@ -107,15 +116,16 @@ exports[`App component should render as expected 1`] = `
     <p
       className="hero__text"
     >
-      Nowadays the largest source of revenue at 
+      We're the Product & Technology department of 
       <strong>
-        Axel Springer
+        <a
+          href="https://www.idealo.de/"
+          target="_blank"
+        >
+          idealo.de
+        </a>
       </strong>
-       and it’s companies is the digital business. Hence, sharing of best practices and practical solutions plays a huge role in our everyday work. That’s why we’re going public with some of our projects here. 
-      <strong>
-        We love the idea of cooperating inhouse and with everyone outside who can benefit from the things we’ve built.
-      </strong>
-       Even better if you join us in discussion and development!
+      , a Berlin-based start-up success story. In 2000 we started out with the mission of helping consumers make the best purchasing decisions. Today, with 1.5 million visits per day, 50,000 shops and more than 330 million product offers, we are one of the most popular German e-commerce websites and one of the leading European shopping and comparison platforms.
     </p>
   </header>
   <section
@@ -137,23 +147,29 @@ exports[`App component should render as expected 1`] = `
           className="projectTile__heading"
         >
           <a
-            href={undefined}
+            className="projectTile__title"
+            target="_blank"
           >
-            polymorphia
+            image-quality-assessment
           </a>
           <img
             className="projectTile__logo"
-            src=""
+            src="/static/logo_tensorflow.png"
           />
         </h3>
         <p
           className="projectTile__description"
         >
-          A very fast POJO codec for MongoDB (used in conjunction with the Mongo Java Driver) that handles generic types as well as polymorphic class hierarchies
+          Convolutional Neural Networks to predict the aesthetic and technical quality of images.
         </p>
         <button
           className="projectTile__videoButton"
           onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
         >
           <span
             aria-hidden={true}
@@ -164,71 +180,75 @@ exports[`App component should render as expected 1`] = `
               }
             }
           />
-           Erklärvideo
+           Video Presentation
         </button>
         <div
-          className="gitHubStats__container"
-          onClick={[Function]}
+          className="projectTile__content"
         >
           <div
-            className="gitHubStats__stat"
+            className="gitHubStats__container"
+            onClick={[Function]}
           >
-            <p
-              className="gitHubStats__icon"
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code-fork"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-star"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-users"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
+            </div>
           </div>
         </div>
       </div>
@@ -239,23 +259,29 @@ exports[`App component should render as expected 1`] = `
           className="projectTile__heading"
         >
           <a
-            href={undefined}
+            className="projectTile__title"
+            target="_blank"
           >
-            crowdsource
+            image-super-resolution
           </a>
           <img
             className="projectTile__logo"
-            src=""
+            src="/static/logo_tensorflow.png"
           />
         </h3>
         <p
           className="projectTile__description"
         >
-          a collaborative crowd sourcing and funding tool using virtual currency
+          Keras implementation of the Residual Dense Network for super scaling images.
         </p>
         <button
           className="projectTile__videoButton"
           onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
         >
           <span
             aria-hidden={true}
@@ -266,71 +292,75 @@ exports[`App component should render as expected 1`] = `
               }
             }
           />
-           Erklärvideo
+           Video Presentation
         </button>
         <div
-          className="gitHubStats__container"
-          onClick={[Function]}
+          className="projectTile__content"
         >
           <div
-            className="gitHubStats__stat"
+            className="gitHubStats__container"
+            onClick={[Function]}
           >
-            <p
-              className="gitHubStats__icon"
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code-fork"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-star"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-users"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
+            </div>
           </div>
         </div>
       </div>
@@ -341,23 +371,29 @@ exports[`App component should render as expected 1`] = `
           className="projectTile__heading"
         >
           <a
-            href={undefined}
+            className="projectTile__title"
+            target="_blank"
           >
-            ideas-dash
+            imageatm
           </a>
           <img
             className="projectTile__logo"
-            src=""
+            src="/static/logo_tensorflow.png"
           />
         </h3>
         <p
           className="projectTile__description"
         >
-          dashboard / team monitor for software development teams
+          Image classification for everyone.
         </p>
         <button
           className="projectTile__videoButton"
           onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
         >
           <span
             aria-hidden={true}
@@ -368,71 +404,75 @@ exports[`App component should render as expected 1`] = `
               }
             }
           />
-           Erklärvideo
+           Video Presentation
         </button>
         <div
-          className="gitHubStats__container"
-          onClick={[Function]}
+          className="projectTile__content"
         >
           <div
-            className="gitHubStats__stat"
+            className="gitHubStats__container"
+            onClick={[Function]}
           >
-            <p
-              className="gitHubStats__icon"
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code-fork"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-star"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-users"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
+            </div>
           </div>
         </div>
       </div>
@@ -443,23 +483,29 @@ exports[`App component should render as expected 1`] = `
           className="projectTile__heading"
         >
           <a
-            href={undefined}
+            className="projectTile__title"
+            target="_blank"
           >
-            semaeval
+            cnn-exposed
           </a>
           <img
             className="projectTile__logo"
-            src=""
+            src="/static/logo_tensorflow.png"
           />
         </h3>
         <p
           className="projectTile__description"
         >
-          Python package to evaluate the quality of semantic engines
+          Interpreting Convolutional Neural Network (CNN) Results.
         </p>
         <button
           className="projectTile__videoButton"
           onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
         >
           <span
             aria-hidden={true}
@@ -470,71 +516,75 @@ exports[`App component should render as expected 1`] = `
               }
             }
           />
-           Erklärvideo
+           Video Presentation
         </button>
         <div
-          className="gitHubStats__container"
-          onClick={[Function]}
+          className="projectTile__content"
         >
           <div
-            className="gitHubStats__stat"
+            className="gitHubStats__container"
+            onClick={[Function]}
           >
-            <p
-              className="gitHubStats__icon"
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code-fork"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-star"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
-          </div>
-          <div
-            className="gitHubStats__stat"
-          >
-            <p
-              className="gitHubStats__icon"
+            </div>
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-users"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
+            </div>
           </div>
         </div>
       </div>
@@ -545,23 +595,29 @@ exports[`App component should render as expected 1`] = `
           className="projectTile__heading"
         >
           <a
-            href={undefined}
+            className="projectTile__title"
+            target="_blank"
           >
-            tech-radar
+            nvidia-docker-keras
           </a>
           <img
             className="projectTile__logo"
-            src=""
+            src="/static/logo_python.png"
           />
         </h3>
         <p
           className="projectTile__description"
         >
-          The Tech Radar is a tool to inspire and support teams to pick the best technologies for new projects
+          Workflow that shows how to train neural networks on EC2 instances with GPU support and compares training times to CPUs.
         </p>
         <button
           className="projectTile__videoButton"
           onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
         >
           <span
             aria-hidden={true}
@@ -572,71 +628,1083 @@ exports[`App component should render as expected 1`] = `
               }
             }
           />
-           Erklärvideo
+           Video Presentation
         </button>
         <div
-          className="gitHubStats__container"
-          onClick={[Function]}
+          className="projectTile__content"
         >
           <div
-            className="gitHubStats__stat"
+            className="gitHubStats__container"
+            onClick={[Function]}
           >
-            <p
-              className="gitHubStats__icon"
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
           </div>
-          <div
-            className="gitHubStats__stat"
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
           >
-            <p
-              className="gitHubStats__icon"
+            flask-openshift-example
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_python.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Simple Flask example using Docker to deploy on OpenShift 3.
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-code-fork"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
           </div>
-          <div
-            className="gitHubStats__stat"
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
           >
-            <p
-              className="gitHubStats__icon"
+            mongodb-slow-operations-profiler
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_idealo.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          This java web application collects slow operations from a mongoDB system in order to visualize and analyze them.
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-star"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
           </div>
-          <div
-            className="gitHubStats__stat"
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
           >
-            <p
-              className="gitHubStats__icon"
+            terraform-emr-pyspark
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_terraform.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Quickstart PySpark with Anaconda on AWS/EMR using Terraform.
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
             >
-              <span
-                aria-hidden={true}
-                className="fa fa-users"
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
               />
-            </p>
-            <p
-              className="gitHubStats__description"
-            />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
+          >
+            falcon-prediction-app
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_python.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Simple Machine Learning Web API Example with Falcon.
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
+          >
+            logback-redis
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_idealo.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Logback Redis Appender with Pipeline-Support for maximum throughput.
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
+          >
+            idealo-orders-api-php-sdk
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_php.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          idealo Direktkauf PHP SDK.
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
+          >
+            jenkins-ci
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_idealo.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Minimal example to setup a Jenkins-CI pipeline for data science projects on OpenShift in a couple of minutes.
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
+          >
+            deckard
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_idealo.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Easy-to-use Spring Kafka producers
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="projectTile__container"
+      >
+        <h3
+          className="projectTile__heading"
+        >
+          <a
+            className="projectTile__title"
+            target="_blank"
+          >
+            SageMaker Experiments Explorer
+          </a>
+          <img
+            className="projectTile__logo"
+            src="/static/logo_idealo.png"
+          />
+        </h3>
+        <p
+          className="projectTile__description"
+        >
+          Easily explore SageMaker Experiments
+        </p>
+        <button
+          className="projectTile__videoButton"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-play-circle"
+            style={
+              Object {
+                "fontSize": "20px",
+              }
+            }
+          />
+           Video Presentation
+        </button>
+        <div
+          className="projectTile__content"
+        >
+          <div
+            className="gitHubStats__container"
+            onClick={[Function]}
+          >
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-code-fork"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-star"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
+            <div
+              className="gitHubStats__stat"
+            >
+              <p
+                className="gitHubStats__icon"
+              >
+                <span
+                  aria-hidden={true}
+                  className="fa fa-users"
+                />
+              </p>
+              <p
+                className="gitHubStats__description"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -672,8 +1740,9 @@ exports[`App component should render as expected 1`] = `
     </div>
     <a
       className="jobs__buttonJobs button"
-      href="https://career.axelspringer.com/"
+      href="https://jobs.idealo.com/l/en#section-110677"
       onClick={[Function]}
+      target="_blank"
     >
       Find your new job
     </a>
@@ -689,16 +1758,25 @@ exports[`App component should render as expected 1`] = `
       >
         <a
           className="socials__item"
-          href="https://www.xing.com/companies/axelspringerse"
+          href="https://twitter.com/idealoTech"
         >
           <span
             aria-hidden={true}
-            className="fa fa-xing"
+            className="fa fa-twitter"
           />
         </a>
         <a
           className="socials__item"
-          href="https://de.linkedin.com/company/axel-springer-se"
+          href="https://medium.com/idealo-tech-blog"
+        >
+          <span
+            aria-hidden={true}
+            className="fa fa-medium"
+          />
+        </a>
+        <a
+          className="socials__item"
+          href="https://www.linkedin.com/company/idealo-internet-gmbh/"
         >
           <span
             aria-hidden={true}
@@ -707,7 +1785,7 @@ exports[`App component should render as expected 1`] = `
         </a>
         <a
           className="socials__item"
-          href="https://www.instagram.com/axel_springer_karriere/"
+          href="https://www.instagram.com/idealo/"
         >
           <span
             aria-hidden={true}
@@ -716,7 +1794,7 @@ exports[`App component should render as expected 1`] = `
         </a>
         <a
           className="socials__item"
-          href="https://www.facebook.com/AxelSpringerKarriere/"
+          href="https://www.facebook.com/idealoDE/"
         >
           <span
             aria-hidden={true}
@@ -728,14 +1806,16 @@ exports[`App component should render as expected 1`] = `
         className="footer__links"
       >
         <a
-          href="http://www.axelspringer.de/artikel/Impressum_40386.html"
+          href="https://www.idealo.de/preisvergleich/AGB.html"
+          target="_blank"
         >
           Impressum
         </a>
         <a
-          href="http://www.axelspringer.de/artikel/Hinweise-zum-Datenschutz_40410.html"
+          href="https://www.idealo.de/preisvergleich/Datenschutz.html"
+          target="_blank"
         >
-          Hinweise zum Datenschutz
+          Datenschutz
         </a>
       </p>
     </div>

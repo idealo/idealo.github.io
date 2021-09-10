@@ -20,9 +20,9 @@ exports[`Navigation component should render as expected 1`] = `
       onClick={[Function]}
     >
       <img
-        alt="Axel Springer SE Logo"
+        alt="idealo.de Logo"
         className="navigation__logo"
-        src="static/as_logo.svg"
+        src="static/idealo_logo.svg"
       />
     </li>
     <li
