@@ -9,17 +9,12 @@ exports[`ProjectTile component should render as expected 1`] = `
   >
     <a
       className="projectTile__title"
-      href={undefined}
-    />
-    <a
-      href={undefined}
       target="_blank"
-    >
-      <img
-        className="projectTile__logo"
-        src="/static/logo_undefined.png"
-      />
-    </a>
+    />
+    <img
+      className="projectTile__logo"
+      src="/static/logo_undefined.png"
+    />
   </h3>
   <p
     className="projectTile__description"

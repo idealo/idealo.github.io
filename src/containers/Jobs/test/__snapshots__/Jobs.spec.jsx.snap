@@ -31,8 +31,9 @@ exports[`Jobs component should render as expected 1`] = `
   </div>
   <a
     className="jobs__buttonJobs button"
-    href="https://career.axelspringer.com/"
+    href="https://jobs.idealo.com/l/en#section-110677"
     onClick={[Function]}
+    target="_blank"
   >
     Find your new job
   </a>
