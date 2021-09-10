@@ -1741,7 +1741,6 @@ exports[`App component should render as expected 1`] = `
     <a
       className="jobs__buttonJobs button"
       href="https://jobs.idealo.com/l/en#section-110677"
-      onClick={[Function]}
       target="_blank"
     >
       Find your new job
