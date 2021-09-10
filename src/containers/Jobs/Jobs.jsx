@@ -2,13 +2,8 @@ import React, { Component } from 'react';
 import './Jobs.scss';
 
 import Gallery from '../../components/Gallery/Gallery'
-import TrackerService from '../../services/TrackingService'
 
 export default (props) => {
-    function goToJobs() {
-        console.log('Track: goToJobs');
-        TrackerService.trackEvent('Jobs', 'goToJobs', null)
-    }
 
     return (
         <section className='jobs__container' id='jobs'>
@@ -20,7 +15,7 @@ export default (props) => {
                 <p className='jobs__adHeading'>Want to code with us?</p>
                 <p className='jobs__adSubheading'>We offer many vacancies in IT!</p>
             </div>
-            <a onClick={goToJobs} className='jobs__buttonJobs button' href="https://jobs.idealo.com/l/en#section-110677" target="_blank">Find your new job</a>
+            <a className='jobs__buttonJobs button' href="https://jobs.idealo.com/l/en#section-110677" target="_blank">Find your new job</a>
         </section>
     );
 }

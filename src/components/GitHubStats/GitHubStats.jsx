@@ -3,14 +3,9 @@ import './GitHubStats.scss';
 
 var FontAwesome = require('react-fontawesome');
 
-import TrackerService from '../../services/TrackingService'
-
 export default (props) => {
 
     function openRepo() {
-        console.log('Track: goToRepo');
-        TrackerService.trackEvent('Projects', 'goToRepo', props.stats.name);
-
         window.open(props.stats.html_url, '_blank');
     }
 

@@ -5,7 +5,6 @@ import GitHubService from '../../services/GitHubService';
 
 import './ProjectTile.scss';
 
-import TrackerService from '../../services/TrackingService'
 var FontAwesome = require('react-fontawesome');
 
 export default class ProjectTile extends Component {
@@ -29,14 +28,7 @@ export default class ProjectTile extends Component {
 
     openVideo() {
         console.log('Track: openVideo');
-        TrackerService.trackEvent('Projects', 'openVideo', this.props.projectData.videoUrl);
-
         window.open(this.props.projectData.videoUrl, '_blank');
-    }
-
-    goToRepo() {
-        console.log('Track: goToRepo');
-        TrackerService.trackEvent('Projects', 'goToRepo', this.state.stats.name);
     }
 
     render() {
