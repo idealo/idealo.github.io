@@ -40,9 +40,13 @@ module.exports = (env) => {
                         path.resolve(__dirname, "src"),
                         path.resolve(__dirname, "node_modules/piwik-tracker")
                     ],
-                    use: [
-                        'babel-loader'
-                    ]
+                    use:
+                        {
+                            loader: "babel-loader",
+                            options: {
+                                presets: ["@babel/preset-env", "@babel/preset-react"]
+                            }
+                        }
                 },
                 {
                     test: /\.(html)$/,

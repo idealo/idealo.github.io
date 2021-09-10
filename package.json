@@ -20,10 +20,6 @@
   "author": "Dat Tran",
   "dependencies": {
     "autoprefixer": "^7.1.1",
-    "babel-core": "6.16.0",
-    "babel-loader": "7.0.0",
-    "babel-preset-es2015": "6.18.0",
-    "babel-preset-react": "6.22.0",
     "copy-webpack-plugin": "^6.2.1",
     "cross-env": "3.1.4",
     "css-loader": "^2.1.1",
@@ -47,8 +43,7 @@
     "svg-react-loader": "^0.4.3",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0",
-    "whatwg-fetch": "^2.0.3",
-    "webpack": "^4.37.0"
+    "whatwg-fetch": "^2.0.3"
   },
   "jest": {
     "testPathIgnorePatterns": [
@@ -63,5 +58,13 @@
       "node_modules",
       "src"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "webpack": "^4.46.0"
   }
 }
