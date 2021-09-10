@@ -38,7 +38,6 @@ module.exports = (env) => {
                     test: /\.(js|jsx)$/,
                     include: [
                         path.resolve(__dirname, "src"),
-                        path.resolve(__dirname, "node_modules/piwik-tracker")
                     ],
                     use:
                         {

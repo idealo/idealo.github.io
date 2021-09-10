@@ -22,12 +22,11 @@ export default class ProjectTile extends Component {
             state.stats = stats;
             this.setState(state);
         }).catch((err) => {
-            console.log('failed', err);
+            // console.log('failed', err);
         })
     }
 
     openVideo() {
-        console.log('Track: openVideo');
         window.open(this.props.projectData.videoUrl, '_blank');
     }
 

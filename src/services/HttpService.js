@@ -16,7 +16,6 @@ class HttpService {
     }
 
     parseJSON(response) {
-        console.log(response);
         return response.json();
     }
 
