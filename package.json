@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "idealo-github-landing-page",
   "scripts": {
     "dev": "next dev",
     "lint": "next lint",
