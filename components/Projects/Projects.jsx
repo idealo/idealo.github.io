@@ -7,7 +7,7 @@ const Projects = ({ projectDatas }) => {
   function renderProjectTiles() {
     let tileList = [];
 
-    projectDatas.forEach((projectData, index) => {
+    projectDatas?.forEach((projectData, index) => {
       tileList.push(
         <ProjectTile key={"projectTile" + index} projectData={projectData} />
       );

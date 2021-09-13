@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders homepage unchanged 1`] = `
+exports[`renders landingpage unchanged 1`] = `
 <div
   className="container"
 >
@@ -21,14 +21,12 @@ exports[`renders homepage unchanged 1`] = `
             src="/___mocks__/image-mock.png"
           />
         </span>
-        <span
-          className="navigation__item"
-        >
-          Our Projects
-        </span>
         <a
+          aria-label="Jobs at idealo"
           className="navigation__item"
-          href="https://jobs.idealo.com/"
+          href="https://jobs.idealo.de"
+          rel="noreferrer"
+          target="_blank"
         >
           Jobs
         </a>
@@ -48,11 +46,19 @@ exports[`renders homepage unchanged 1`] = `
         <div
           className="hero__bottomContainer"
         >
-          <p
-            className="hero__bottomText"
+          <div
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
           >
-            #idealoTech
-          </p>
+            <p
+              className="hero__bottomText"
+            >
+              #idealoTech
+            </p>
+          </div>
           <p
             className="centeredContainer  hero__socials"
           >

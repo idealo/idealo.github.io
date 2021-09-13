@@ -9,7 +9,7 @@ jest.mock(
       return <img src={src} alt={alt} />;
     }
 );
-it("renders homepage unchanged", () => {
+it("renders landingpage unchanged", () => {
   const tree = renderer.create(<Index />).toJSON();
   expect(tree).toMatchSnapshot();
 });
