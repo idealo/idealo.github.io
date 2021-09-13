@@ -8,57 +8,57 @@ exports[`Gallery component should render as expected 1`] = `
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/jobs_04.png"
-    thumbnail="static/thumbnails/jobs_04.png"
+    src="static/jobs_01.jpg"
+    thumbnail="static/thumbnails/jobs_01.jpg"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/jobs_08.png"
-    thumbnail="static/thumbnails/jobs_08.png"
+    src="static/jobs_02.jpg"
+    thumbnail="static/thumbnails/jobs_02.jpg"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/jobs_01.png"
-    thumbnail="static/thumbnails/jobs_01.png"
+    src="static/jobs_03.jpg"
+    thumbnail="static/thumbnails/jobs_03.jpg"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/jobs_03.png"
-    thumbnail="static/thumbnails/jobs_03.png"
+    src="static/jobs_04.jpg"
+    thumbnail="static/thumbnails/jobs_04.jpg"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/jobs_02.png"
-    thumbnail="static/thumbnails/jobs_02.png"
+    src="static/jobs_05.jpg"
+    thumbnail="static/thumbnails/jobs_05.jpg"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/jobs_05.png"
-    thumbnail="static/thumbnails/jobs_05.png"
+    src="static/jobs_06.jpg"
+    thumbnail="static/thumbnails/jobs_06.jpg"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/jobs_07.png"
-    thumbnail="static/thumbnails/jobs_07.png"
+    src="static/jobs_07.jpg"
+    thumbnail="static/thumbnails/jobs_07.jpg"
   />
   <ProgressiveImage
     blurRadius="3"
     className="gallery__image"
     keepRatio={true}
-    src="static/jobs_06.png"
-    thumbnail="static/thumbnails/jobs_06.png"
+    src="static/jobs_08.jpg"
+    thumbnail="static/thumbnails/jobs_08.jpg"
   />
 </div>
 `;
