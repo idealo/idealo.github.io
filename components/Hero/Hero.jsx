@@ -12,6 +12,7 @@ const Hero = () => {
         alt="Headerimage with pair programming employee"
         className={styles.hero__image}
         src={header}
+        layout="responsive"
         placeholder="blur"
       />
 
