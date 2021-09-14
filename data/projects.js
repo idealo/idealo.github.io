@@ -135,14 +135,4 @@ export default [
     projectId: "deckard",
     language: "java",
   },
-  {
-    title: "SageMaker Experiments Explorer",
-    description: "Easily explore SageMaker Experiments",
-    videoUrl: "",
-    ownerId: "idealo",
-    ownerUrl: "",
-    ownerLogo: "idealo",
-    projectId: "mle-sagemaker-experiments-tool",
-    language: "python",
-  },
 ];
