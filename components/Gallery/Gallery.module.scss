@@ -1,0 +1,18 @@
+.gallery {
+  &__container {
+    display: grid;
+    grid-template: "1fr 1fr";
+  }
+  @media (min-width: 768px) {
+    &__container {
+      display: grid;
+      grid-template: "1fr 1fr 1fr 1fr";
+    }
+  }
+
+  &__image {
+    &:hover {
+      filter: brightness(80%);
+    }
+  }
+}
