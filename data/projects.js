@@ -1,8 +1,7 @@
 export default [
   {
     title: "image-quality-assessment",
-    description:
-      "Convolutional Neural Networks to predict the aesthetic and technical quality of images.",
+    description: "Convolutional Neural Networks to predict the aesthetic and technical quality of images.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -12,8 +11,7 @@ export default [
   },
   {
     title: "image-super-resolution",
-    description:
-      "Keras implementation of the Residual Dense Network for super scaling images.",
+    description: "Keras implementation of the Residual Dense Network for super scaling images.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -42,15 +40,34 @@ export default [
     language: "python",
   },
   {
+    title: "mongodb-slow-operations-profiler",
+    description: "This java web application collects slow operations from a mongoDB system in order to visualize and analyze them.",
+    videoUrl: "",
+    ownerId: "idealo",
+    ownerUrl: "",
+    ownerLogo: "java",
+    projectId: "mongodb-slow-operations-profiler",
+    language: "java",
+  },
+  {
     title: "nvidia-docker-keras",
-    description:
-      "Workflow that shows how to train neural networks on EC2 instances with GPU support and compares training times to CPUs.",
+    description: "Workflow that shows how to train neural networks on EC2 instances with GPU support and compares training times to CPUs.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
     ownerLogo: "python",
     projectId: "nvidia-docker-keras",
     language: "python",
+  },
+  {
+    title: "mongodb-performance-test",
+    description: "multithreaded test tool to test mongodb performances, such as throughput and latency",
+    videoUrl: "",
+    ownerId: "idealo",
+    ownerUrl: "",
+    ownerLogo: "java",
+    projectId: "mongodb-performance-test",
+    language: "java",
   },
   {
     title: "flask-openshift-example",
@@ -61,17 +78,6 @@ export default [
     ownerLogo: "python",
     projectId: "flask-openshift-example",
     language: "python",
-  },
-  {
-    title: "mongodb-slow-operations-profiler",
-    description:
-      "This java web application collects slow operations from a mongoDB system in order to visualize and analyze them.",
-    videoUrl: "",
-    ownerId: "idealo",
-    ownerUrl: "",
-    ownerLogo: "idealo",
-    projectId: "mongodb-slow-operations-profiler",
-    language: "java",
   },
   {
     title: "terraform-emr-pyspark",
@@ -95,12 +101,11 @@ export default [
   },
   {
     title: "logback-redis",
-    description:
-      "Logback Redis Appender with Pipeline-Support for maximum throughput.",
+    description: "Logback Redis Appender with Pipeline-Support for maximum throughput.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
-    ownerLogo: "idealo",
+    ownerLogo: "java",
     projectId: "logback-redis",
     language: "java",
   },
@@ -116,8 +121,7 @@ export default [
   },
   {
     title: "jenkins-ci",
-    description:
-      "Minimal example to setup a Jenkins-CI pipeline for data science projects on OpenShift in a couple of minutes.",
+    description: "Minimal example to setup a Jenkins-CI pipeline for data science projects on OpenShift in a couple of minutes.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -131,7 +135,7 @@ export default [
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
-    ownerLogo: "idealo",
+    ownerLogo: "java",
     projectId: "deckard",
     language: "java",
   },
