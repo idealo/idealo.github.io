@@ -12,6 +12,8 @@ If you want to present your open source project on the landing page, go to **/sr
 
 ## Release Changes
 
+**Important**: All changes should be made on the **develop** branch! They will then be integrated into the master branch automatically.
+
 1. Build Static Files
 
 ```bash
