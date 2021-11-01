@@ -16,7 +16,7 @@ export default class ProjectTile extends Component {
   }
 
   render() {
-    const projectTileLogo = require(`/images/logo_${this.props.projectData.config.ownerLogo}.png?resize`);
+    const projectTileLogo = require(`/images/tech-logos/logo_${this.props.projectData.config.ownerLogo}.png?resize`);
     return (
       <div className={styles.projectTile__container}>
         <h3 className={styles.projectTile__heading}>

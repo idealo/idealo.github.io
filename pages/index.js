@@ -46,8 +46,11 @@ export async function getStaticProps() {
       console.log(Exception);
     }
   }
-
-  return { props: { projectDatas } };
+  // sort by stars
+  const projectDataSorted = projectDatas.sort(function (a, b) {
+    return b.github.stargazers_count - a.github.stargazers_count;
+  });
+  return { props: { projectDatas: projectDataSorted } };
 }
 
 export default Home;

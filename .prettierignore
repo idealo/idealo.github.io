@@ -5,3 +5,5 @@ node_modules
 .next
 # Ignore all HTML files:
 *.html
+# Ignore static build if there is one
+static-output

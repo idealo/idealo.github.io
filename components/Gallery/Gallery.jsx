@@ -2,14 +2,14 @@ import React from "react";
 import styles from "./Gallery.module.scss";
 
 // load images
-import img1 from "/images/jobs_01.jpg?resize&width=300&height=300";
-import img2 from "/images/jobs_02.jpg?resize&width=300&height=300";
-import img3 from "/images/jobs_03.jpg?resize&width=300&height=300";
-import img4 from "/images/jobs_04.jpg?resize&width=300&height=300";
-import img5 from "/images/jobs_05.jpg?resize&width=300&height=300";
-import img6 from "/images/jobs_06.jpg?resize&width=300&height=300";
-import img7 from "/images/jobs_07.jpg?resize&width=300&height=300";
-import img8 from "/images/jobs_08.jpg?resize&width=300&height=300";
+import img1 from "/images/job/jobs_01.jpg?resize&width=300&height=300";
+import img2 from "/images/job/jobs_02.jpg?resize&width=300&height=300";
+import img3 from "/images/job/jobs_03.jpg?resize&width=300&height=300";
+import img4 from "/images/job/jobs_04.jpg?resize&width=300&height=300";
+import img5 from "/images/job/jobs_05.jpg?resize&width=300&height=300";
+import img6 from "/images/job/jobs_06.jpg?resize&width=300&height=300";
+import img7 from "/images/job/jobs_07.jpg?resize&width=300&height=300";
+import img8 from "/images/job/jobs_08.jpg?resize&width=300&height=300";
 
 const Gallary = () => {
   function renderImages() {
