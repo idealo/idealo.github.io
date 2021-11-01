@@ -1,18 +1,24 @@
 # Landing Page - idealo.github.io
 
-## Badges
-
 Idealo Organisation Stars ![Idealo Organisation](https://img.shields.io/github/stars/idealo?style=social)
-
-[![Apache-2.0 License](https://img.shields.io/github/license/idealo/idealo.github.io)](https://opensource.org/licenses/Apache-2.0)
 
 ## What this project is all about
 
-This is the landing page for the open source initiative of [idealo.de](https://www.idealo.de/) and provides an overview of idealo’s open source projects as well as current job offers.
+This is the landing page for the open source initiative of [idealo.de](https://www.idealo.de/) and provides an overview of idealo’s open source projects.
 
 ### Present your project on idealo.github.io
 
 If you want to present your open source project on the landing page, go to **/src/data/projects.js**, copy one of the existing projects within the file and simply alter the project-specific information. Title and project ID should be identical to the name of your GitHub project.
+
+## Release Changes
+
+1. Build Static Files
+
+```bash
+  npm run publish
+```
+
+2. Copy content from the folder `static-output` to `master` branch.
 
 ## Run Locally
 
@@ -40,23 +46,9 @@ Start the server
   npm run dev
 ```
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run build
-```
-
-To start the deployed project
-
-```bash
-  npm run start
-```
-
 #### Docker Version
 
-Use the [Dockerfile](./Dockerfile) to run the project
+The [Dockerfile](./Dockerfile) you can use, if you want to move this project to a `non static version`.
 
 ### Testing
 
