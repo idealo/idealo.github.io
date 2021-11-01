@@ -1,5 +1,11 @@
 @import "../../styles/variables.scss";
-
+.header {
+  margin-top: 50px;
+}
+.image {
+  object-fit: cover;
+  width: 100%;
+}
 .hero {
   &__container {
     display: flex;
@@ -19,14 +25,13 @@
   }
 
   &__bottomContainer {
-    flex: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
-    align-items: flex-end;
   }
 
   &__bottomText {
@@ -34,18 +39,15 @@
     font-weight: bold;
     color: $font-color-secondary;
     line-height: 1.2;
-    margin-right: auto;
-    padding-left: 20px;
+    padding-left: 7px;
 
     @media screen and (max-width: 500px) {
       line-height: 1;
       font-size: 20px;
-      padding-left: 40px;
     }
   }
 
   &__socials {
-    font-size: 38px;
     flex-shrink: 0;
 
     > a {
@@ -54,7 +56,6 @@
       line-height: 1;
 
       &:hover {
-        font-size: 40px;
         color: #fff;
       }
     }
