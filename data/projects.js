@@ -135,4 +135,15 @@ export default [
     projectId: "deckard",
     language: "java",
   },
+  {
+    title: "AWS Signing Proxy",
+    description:
+      "A transparent proxy which forwards and signs http requests to AWS services.",
+    videoUrl: "",
+    ownerId: "idealo",
+    ownerUrl: "",
+    ownerLogo: "idealo",
+    projectId: "aws-signing-proxy",
+    language: "golang",
+  },
 ];
