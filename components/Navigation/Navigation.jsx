@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Image from "next/image";
 
 import styles from "./Navigation.module.scss";
 import logo from "/images/idealo_logo.svg";
@@ -20,7 +19,7 @@ export default class Navigation extends Component {
           <span
             className={`${styles.navigation__item}   ${styles.navigation__itemlogo}`}
           >
-            <Image
+            <img
               width="100px"
               height="50px"
               className={styles.navigation__logo}

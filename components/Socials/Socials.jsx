@@ -22,7 +22,7 @@ const Socials = (props) => {
         aria-label="Twitter"
         className={styles.socials__item}
       >
-        <FontAwesomeIcon style={{ width: "25px" }} icon={faTwitter} />
+        <FontAwesomeIcon style={{ width: "20px" }} icon={faTwitter} />
       </a>
       <a
         href="https://medium.com/idealo-tech-blog"
@@ -30,7 +30,7 @@ const Socials = (props) => {
         aria-label="Medium"
         className={styles.socials__item}
       >
-        <FontAwesomeIcon style={{ width: "25px" }} icon={faMedium} />
+        <FontAwesomeIcon style={{ width: "20px" }} icon={faMedium} />
       </a>
       <a
         href="https://www.linkedin.com/company/idealo-internet-gmbh/"
@@ -38,7 +38,7 @@ const Socials = (props) => {
         rel="noreferrer"
         className={styles.socials__item}
       >
-        <FontAwesomeIcon style={{ width: "25px" }} icon={faLinkedin} />
+        <FontAwesomeIcon style={{ width: "20px" }} icon={faLinkedin} />
       </a>
       <a
         href="https://www.instagram.com/idealo/"
@@ -46,7 +46,7 @@ const Socials = (props) => {
         aria-label="Instagram"
         className={styles.socials__item}
       >
-        <FontAwesomeIcon style={{ width: "25px" }} icon={faInstagram} />
+        <FontAwesomeIcon style={{ width: "20px" }} icon={faInstagram} />
       </a>
       <a
         href="https://www.facebook.com/idealoDE/"
@@ -54,7 +54,7 @@ const Socials = (props) => {
         aria-label="Facebook"
         className={styles.socials__item}
       >
-        <FontAwesomeIcon style={{ width: "25px" }} icon={faFacebook} />
+        <FontAwesomeIcon style={{ width: "20px" }} icon={faFacebook} />
       </a>
     </p>
   );

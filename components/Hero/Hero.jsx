@@ -1,26 +1,20 @@
 import React from "react";
 import styles from "./Hero.module.scss";
-import Image from "next/image";
 
 import Socials from "../../components/Socials/Socials";
 import header from "/images/header.jpg";
 
 const Hero = () => {
   return (
-    <header className={styles.hero__container} id="home">
-      <Image
+    <header id="home" className={styles.header}>
+      <img
         alt="Headerimage with pair programming employee"
-        className={styles.hero__image}
         src={header}
-        layout="responsive"
-        placeholder="blur"
+        className={styles.image}
       />
-
       <div className={styles.hero__imageContainer}>
         <div className={styles.hero__bottomContainer}>
-          <div style={{ width: "100%" }}>
-            <p className={styles.hero__bottomText}>#idealoTech</p>
-          </div>
+          <div className={styles.hero__bottomText}>#idealoTech</div>
           <Socials className={styles.hero__socials} />
         </div>
         {/*<img className='hero__scrollDown' src='./arrow.png' onClick={scrollDown} />*/}
