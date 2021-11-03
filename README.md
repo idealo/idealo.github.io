@@ -1,5 +1,8 @@
 # Landing Page - idealo.github.io
 
+[![Test](https://github.com/idealo/idealo.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/idealo/idealo.github.io/actions/workflows/test.yml)
+[![Deploy GitHub Page](https://github.com/idealo/idealo.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/idealo/idealo.github.io/actions/workflows/deploy.yml)
+
 Idealo Organisation Stars ![Idealo Organisation](https://img.shields.io/github/stars/idealo?style=social)
 
 ## What this project is all about
@@ -12,16 +15,9 @@ If you want to present your open source project on the landing page, go to **/sr
 
 ## Release Changes
 
-**Important**: All changes should be made on the **develop** branch! They will then be integrated into the master branch automatically.
+Any changes should be introduced via pull request. After merging into the `main` branch, they will be deployed automatically.
 
-1. Build Static Files
-
-```bash
-  npm run build
-  npm run export 
-```
-
-2. Copy content from the folder `out` to `gh-pages` branch.
+In more detail, the deployment workflow will build the project, run all tests and export the static content to the deployment branch `gh-pages`.
 
 ## Run Locally
 
@@ -49,6 +45,12 @@ Start the server
   npm run dev
 ```
 
+or run directly with the _npx CLI_:
+
+```bash
+  npx next dev -p 4000
+```
+
 #### Docker Version
 
 The [Dockerfile](./Dockerfile) you can use, if you want to move this project to a `non static version`.
@@ -60,14 +62,14 @@ Please remember to alter these tests if you’ve modified the structure of the p
 
 ## FAQ
 
-#### Can I add Question here?
+#### Can I add Questions here?
 
 Yes for sure, just edit this readme.md and create a pull request!
 
 ## Feedback
 
 If you have any feedback, please create a github issue.  
-We will respond fast to your request.
+We will respond as fast as possible to your request.
 
 ## Roadmap
 
@@ -101,6 +103,6 @@ Please use the git-hooks to avoid that you commit unlinted/unformated code.
 ## Thanks
 
 We use/used these Project to make our work easier.  
-We are happy for OpenSource and want to thanks to these Projects:
+We are happy for OpenSource and want to express our thanks to these Projects:
 
 [NextJS](https://github.com/vercel/next.js)
