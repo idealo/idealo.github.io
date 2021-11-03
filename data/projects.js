@@ -1,7 +1,8 @@
 export default [
   {
     title: "image-quality-assessment",
-    description: "Convolutional Neural Networks to predict the aesthetic and technical quality of images.",
+    description:
+      "Convolutional Neural Networks to predict the aesthetic and technical quality of images.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -11,7 +12,8 @@ export default [
   },
   {
     title: "image-super-resolution",
-    description: "Keras implementation of the Residual Dense Network for super scaling images.",
+    description:
+      "Keras implementation of the Residual Dense Network for super scaling images.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -41,7 +43,8 @@ export default [
   },
   {
     title: "mongodb-slow-operations-profiler",
-    description: "This java web application collects slow operations from a mongoDB system in order to visualize and analyze them.",
+    description:
+      "This java web application collects slow operations from a mongoDB system in order to visualize and analyze them.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -51,7 +54,8 @@ export default [
   },
   {
     title: "nvidia-docker-keras",
-    description: "Workflow that shows how to train neural networks on EC2 instances with GPU support and compares training times to CPUs.",
+    description:
+      "Workflow that shows how to train neural networks on EC2 instances with GPU support and compares training times to CPUs.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -61,7 +65,8 @@ export default [
   },
   {
     title: "mongodb-performance-test",
-    description: "multithreaded test tool to test mongodb performances, such as throughput and latency",
+    description:
+      "multithreaded test tool to test mongodb performances, such as throughput and latency",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -101,7 +106,8 @@ export default [
   },
   {
     title: "logback-redis",
-    description: "Logback Redis Appender with Pipeline-Support for maximum throughput.",
+    description:
+      "Logback Redis Appender with Pipeline-Support for maximum throughput.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -121,7 +127,8 @@ export default [
   },
   {
     title: "jenkins-ci",
-    description: "Minimal example to setup a Jenkins-CI pipeline for data science projects on OpenShift in a couple of minutes.",
+    description:
+      "Minimal example to setup a Jenkins-CI pipeline for data science projects on OpenShift in a couple of minutes.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -148,6 +155,6 @@ export default [
     ownerUrl: "",
     ownerLogo: "idealo",
     projectId: "aws-signing-proxy",
-    language: "golang",
+    language: "dockerfile",
   },
 ];
