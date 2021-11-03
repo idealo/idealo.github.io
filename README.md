@@ -17,10 +17,11 @@ If you want to present your open source project on the landing page, go to **/sr
 1. Build Static Files
 
 ```bash
-  npm run publish
+  npm run build
+  npm run export 
 ```
 
-2. Copy content from the folder `static-output` to `master` branch.
+2. Copy content from the folder `out` to `gh-pages` branch.
 
 ## Run Locally
 
