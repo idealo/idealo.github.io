@@ -116,16 +116,6 @@ export default [
     language: "java",
   },
   {
-    title: "idealo-orders-api-php-sdk",
-    description: "idealo Direktkauf PHP SDK.",
-    videoUrl: "",
-    ownerId: "idealo",
-    ownerUrl: "",
-    ownerLogo: "php",
-    projectId: "idealo-orders-api-php-sdk",
-    language: "php",
-  },
-  {
     title: "jenkins-ci",
     description:
       "Minimal example to setup a Jenkins-CI pipeline for data science projects on OpenShift in a couple of minutes.",
