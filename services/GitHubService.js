@@ -4,9 +4,12 @@ class GitHubService {
   constructor() {
     this.BASE_URL = "https://asideas-github-cache.herokuapp.com";
   }
+  getGitHubAPIURL(owner, project) {
+    return `https://api.github.com/repos/${owner}/${project}`;
+  }
 
   getStats(owner, project) {
-    return HttpService.get(this.BASE_URL + "/" + owner + "/" + project);
+    return HttpService.get(this.getGitHubAPIURL(owner, project));
   }
 }
 
