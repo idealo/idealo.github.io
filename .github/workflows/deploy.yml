@@ -5,6 +5,8 @@ name: Deploy GitHub Page
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "0 10 * * 1" # Every Monday at 10AM UTC
 
 jobs:
   build:
