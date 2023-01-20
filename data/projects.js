@@ -145,6 +145,17 @@ export default [
     ownerUrl: "",
     ownerLogo: "idealo",
     projectId: "aws-signing-proxy",
-    language: "dockerfile",
+    language: "go",
+  },
+  {
+    title: "AWS MWAA Terraform Module",
+    description:
+      "Terraform module to set up AWS Managed Workflows with Apache Airflow (MWAA, Airflow as managed service by AWS)",
+    videoUrl: "",
+    ownerId: "idealo",
+    ownerUrl: "",
+    ownerLogo: "idealo",
+    projectId: "terraform-aws-mwaa",
+    language: "hcl",
   },
 ];
