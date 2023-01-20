@@ -44,6 +44,15 @@ export async function getStaticProps() {
       projectDatas.push({ github: projectStatistic, config: project });
     } catch (Exception) {
       console.log(Exception);
+      projectDatas.push({
+        github: {
+          stargazers_count: 0,
+          watchers_count: 0,
+          forks_count: 0,
+          html_url: `https://github.com/${project.ownerId}/${project.projectId}`,
+        },
+        config: project,
+      });
     }
   }
   // sort by stars
