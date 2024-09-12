@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Socials.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faTwitter,
   faMedium,
   faLinkedin,
   faInstagram,
@@ -16,14 +15,6 @@ const Socials = (props) => {
         props.className ? props.className : ""
       }`}
     >
-      <a
-        href="https://twitter.com/idealoTech"
-        rel="noreferrer"
-        aria-label="Twitter"
-        className={styles.socials__item}
-      >
-        <FontAwesomeIcon style={{ width: "20px" }} icon={faTwitter} />
-      </a>
       <a
         href="https://medium.com/idealo-tech-blog"
         rel="noreferrer"
