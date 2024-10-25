@@ -105,17 +105,6 @@ export default [
     language: "python",
   },
   {
-    title: "logback-redis",
-    description:
-      "Logback Redis Appender with Pipeline-Support for maximum throughput.",
-    videoUrl: "",
-    ownerId: "idealo",
-    ownerUrl: "",
-    ownerLogo: "java",
-    projectId: "logback-redis",
-    language: "java",
-  },
-  {
     title: "jenkins-ci",
     description:
       "Minimal example to setup a Jenkins-CI pipeline for data science projects on OpenShift in a couple of minutes.",
