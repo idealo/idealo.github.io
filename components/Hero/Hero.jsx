@@ -20,10 +20,10 @@ const Hero = () => {
         {/*<img className='hero__scrollDown' src='./arrow.png' onClick={scrollDown} />*/}
       </div>
       <p className={styles.hero__text}>
-        We`&apos;re the Product & Technology department of{" "}
+        We&apos;re the Product & Technology department of{" "}
         <strong>
           <a
-            aria-label="Idealo Website"
+            aria-label="idealo Website"
             href="https://www.idealo.de/"
             target="_blank"
             rel="noreferrer"

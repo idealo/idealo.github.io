@@ -6,10 +6,12 @@ import Gallery from "../../components/Gallery/Gallery";
 const Jobs = () => {
   return (
     <section className={styles.jobs__container} id="jobs">
+      {/*
       <div className={styles.jobs__headingContainer}>
         <h2 className={`${styles.jobs__heading} sectionHeading`}>Jobs</h2>
       </div>
-      <Gallery />
+	   <Gallery />
+	 */}
       <div className={styles.jobs__advertisement}>
         <p className={styles.jobs__adHeading}>Want to work with us?</p>
         <p className={styles.jobs__adSubheading}>
