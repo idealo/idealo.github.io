@@ -17,7 +17,7 @@ const Home = ({ projectDatas }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Github Idealo OpenSource Community Page</title>
+        <title>idealo Open Source Community</title>
         <link rel="icon" href="/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
