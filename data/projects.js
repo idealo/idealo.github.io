@@ -17,9 +17,9 @@ export default [
     videoURL: "",
     ownerId: "idealo",
     ownerUrl: "",
-    ownerLogo: "java",
+    ownerLogo: "kotlin",
     projectId: "spring-endpoint-exporter",
-    language: "java",
+    language: "kotlin",
   },
   {
     title: "php-rdkafka-ffi",
@@ -77,7 +77,8 @@ export default [
   },
   {
     title: "deckard",
-    description: "Easy-to-use Spring Kafka producers",
+    description:
+      "Easy-to-use Spring Kafka producers. Deckard is a wrapper library for Spring Kafka. It provides an easy solution to write messages to Kafka in a purely declarative and transparent manner. It lets you write Kafka messages without having to worry much about complicated configurations.",
     videoUrl: "",
     ownerId: "idealo",
     ownerUrl: "",
@@ -150,5 +151,14 @@ export default [
     ownerId: "idealo",
     projectId: "cctray-hub",
     language: "kotlin",
+  },
+  {
+    title: "AWS signing proxy",
+    description:
+      "A transparent proxy which forwards and signs http requests to AWS services.",
+    ownerLogo: "go",
+    ownerId: "idealo",
+    projectId: "aws-signing-proxy",
+    language: "go",
   },
 ];
