@@ -34,9 +34,6 @@ jobs:
       - name: Run Tests
         run: npm run test:ci
 
-      - name: Export static files
-        run: npm run export
-
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
 

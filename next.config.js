@@ -7,6 +7,7 @@ const withPlugins = require("next-compose-plugins");
  */
 const nextConfig = {
   /* config options here */
+  output: "export",
   sassOptions: {
     includePaths: [path.join(__dirname, "styles")],
   },
