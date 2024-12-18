@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./Jobs.module.scss";
 
-import Gallery from "../../components/Gallery/Gallery";
-
 const Jobs = () => {
   return (
     <section className={styles.jobs__container} id="jobs">
