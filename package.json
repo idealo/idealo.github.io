@@ -35,7 +35,7 @@
     "react-dom": "^18.2.0",
     "responsive-loader": "^2.0.0",
     "sass": "^1.39.2",
-    "sharp": "^0.33.5",
+    "sharp": "^0.32.6",
     "svg-sprite-loader": "^6.0.0",
     "url-loader": "^4.1.1"
   },
