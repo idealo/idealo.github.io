@@ -1,5 +1,16 @@
 export default [
   {
+    title: "imagededup",
+    description:
+      "imagededup is a python package that simplifies the task of finding exact and near duplicates in an image collection.\nThis package provides functionality to make use of hashing algorithms that are particularly good at finding exact duplicates as well as convolutional neural networks which are also adept at finding near duplicates. An evaluation framework is also provided to judge the quality of deduplication for a given dataset.",
+    videoURL: "",
+    ownerId: "idealo",
+    ownerUrl: "",
+    ownerLogo: "python",
+    projectId: "imagededup",
+    language: "python",
+  },
+  {
     title: "spring-endpoint-exporter-action",
     description:
       "This action allows you to use the spring-endpoint-exporter in you github workflows.",
