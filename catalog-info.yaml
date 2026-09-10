@@ -1,0 +1,15 @@
+      apiVersion: backstage.io/v1alpha1
+      kind: Component
+      metadata:
+        name: idealo.github.io
+        description: GitHub Pages site for the idealo organization
+        annotations:
+          github.com/project-slug: idealo/idealo.github.io
+          github.com/team-slug: idealo/cloud-core
+tags:
+  - github-pages
+      spec:
+        type: website
+        lifecycle: production
+        owner: group:cloud-core
+        system: version-control-system-github
